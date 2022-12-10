@@ -5,7 +5,7 @@
 
     --White: hsl(0, 0%, 100%);
     --Very-light-grayish-blue: hsl(210, 60%, 98%);
-    --Light-grayish-blue-1: hsl(211, 68%, 97%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
     --Light-grayish-blue-2: hsl(205, 33%, 90%);
     --Grayish-blue: hsl(219, 14%, 63%);
     --Dark-grayish-blue: hsl(219, 12%, 42%);
@@ -66,7 +66,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
 }
 .notification__header h1 {
     font-size: 2rem;
@@ -95,7 +94,8 @@ main {
 }
 /*  */
 .notification__body {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+
 }
 .notification {
     margin-block: 1rem;
@@ -143,6 +143,14 @@ main {
     font-size: 1.4rem;
     color: var(--Dark-grayish-blue);
 }
+.status__state {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin-left: .5rem;
+    border-radius: 50%;
+    background-color: var(--Red);
+}
 .profile__group {
     font-size: 1.5rem;
     font-weight: var(--fw-bold);
@@ -168,7 +176,6 @@ main {
     background-color: var(--Light-grayish-blue-1);
 }
 .chess__photo {
-    justify-items: flex-end;
     width: 4rem;
 }
 .post__title {
@@ -178,13 +185,10 @@ main {
 .post__title:hover {
     color: var(--Blue);
 }
-.read {
-    background-color: inherit;
-}
-.none {
+.hidden {
     display: none;
 }
-@media (min-width: 500px) {
+@media (min-width: 450px) {
     .chess__photo {
         position: absolute;
         right: 0;

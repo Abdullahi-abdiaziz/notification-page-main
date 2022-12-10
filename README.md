@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View URL here](https://github.com/Abdullahi-abdiaziz/notification-page-main)
-- Live Site URL: [View live site URL here](https://notification-page-main-c13.netlify.app/)
+- Live Site URL: [View live site URL here](https://notification-page-main-c15.netlify.app/)
 
 
 ## My process

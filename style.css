@@ -57,7 +57,6 @@ main {
     display: grid;
     place-items: center;
     padding: 2rem;
-
 }
 .header {
     width: 100%;
@@ -118,7 +117,6 @@ main {
     display: flex;
     align-items: start;
     gap: 1rem;
-
     padding: 1rem;
 }
 .profile__photo {
